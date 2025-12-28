@@ -170,6 +170,35 @@
     @keyframes fall {
       to { transform: translateY(110vh) rotate(360deg); opacity: 0; }
     }
+
+    /* Responsive: Mobil cihazlar için */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 52px; /* Başlık daha küçük olsun */
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .kokina {
+    width: 250px; /* Kokina resmini biraz küçült */
+  }
+
+  .counter.romantic-text {
+    font-size: 18px;
+  }
+
+  .letter {
+    padding: 25px; /* Letter kutusunu küçült */
+    max-width: 90vw; /* Ekrana göre genişlesin */
+  }
+
+  .letter p {
+    font-size: 16px; /* Yazı okunaklı olsun */
+  }
+}
+
   </style>
 </head>
 
